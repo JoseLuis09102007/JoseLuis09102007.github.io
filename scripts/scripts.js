@@ -8,7 +8,7 @@ if (name === "Alexis" || name === "alexis") {
   name === "melani" ||
   name == "Melany"
 ) {
-  alert("Hola Esposa de Jungkook");
+  alert("Hola Esposa de Jungkook 😂😂");
 } else {
   alert("Al parecer no te conozco");
 }
