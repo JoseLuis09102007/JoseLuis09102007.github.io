@@ -10,7 +10,7 @@ if (name === "Alexis" || name === "alexis") {
   name == "Melany"
 ) {
   alert("Hola Esposa de Jungkook 😂😂");
-  let agregado = `<div>Clic <a href = "ella.html">aqui</a> para continuar<div>`;
+  let agregado = `<div>Clic <a href = "ella.html" class = "enlaceElla">aqui</a> para continuar<div>`;
   document.body.innerHTML = agregado;
 } else if (name === "Jose Luis") {
   alert("Hola, dueño");
