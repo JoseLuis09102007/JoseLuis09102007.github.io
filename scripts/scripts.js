@@ -11,6 +11,8 @@ if (name === "Alexis" || name === "alexis") {
   alert("Hola Esposa de Jungkook 😂😂");
   let continueElla = `<div>Clic <a href = "ella.html">aqui</a> para continuar<div>`;
   document.body.innerHTML = continueElla;
+} else if (name == "Jose Luis") {
+  alert("Hola, dueño");
 } else {
   alert("Al parecer no te conozco");
 }
