@@ -9,11 +9,15 @@ if (name === "Alexis" || name === "alexis") {
   name === "melani" ||
   name == "Melany"
 ) {
-  alert("Hola Esposa de Jungkook 😂😂");
-  let agregado = `<div>Clic <a href = "ella.html" class = "enlaceElla">aqui</a> para continuar<div>`;
-  document.body.innerHTML = agregado;
-} else if (name === "Jose Luis") {
-  alert("Hola, dueño");
-} else {
-  alert("Al parecer no te conozco");
+  let confirmacion = confirm('¿Eres Melany Fiorella de la Cruz Olivera?')
+  if(confirmacion === true) {  
+    alert("Hola Esposa de Jungkook 😂😂");
+    let agregado = `<div>Clic <a href = "ella.html" class = "enlaceElla">aqui</a> para la pagina creada para ti<div>`;
+    document.body.innerHTML = agregado;}
+}
+ else if (name === "Jose Luis") {
+    alert("Hola, dueño");
+}
+ else {
+    alert("Al parecer no te conozco");
 }
