@@ -11,4 +11,6 @@ a {
 }
 menu {
   text-align: right;
+  border: 10px, solid, gray;
+  background-color: rgb(128, 128, 128);
 }
