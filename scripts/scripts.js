@@ -12,7 +12,7 @@ if (name === "Alexis" || name === "alexis") {
   let confirmacion = confirm('¿Eres Melany Fiorella de la Cruz Olivera?')
   if(confirmacion === true) {  
     alert("Hola Fiorella D'c kookie");
-    let agregado = `<div>Clic <a href = "ella.html" class = "enlaceElla">aqui</a> para la pagina creada para ti<div>`;
+    let agregado = `<p>Clic <a href = "ella.html" class = "enlaceElla">aqui</a> para la pagina creada para ti<p>`;
     document.body.innerHTML = agregado;}
 }
  else if (name === "Jose Luis") {
