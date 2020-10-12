@@ -11,7 +11,7 @@ if (name === "Alexis" || name === "alexis") {
 ) {
   let confirmacion = confirm('¿Eres Melany Fiorella de la Cruz Olivera?')
   if(confirmacion === true) {  
-    alert("Hola Esposa de Jungkook 😂😂");
+    alert("Hola Fiorella D'c kookie");
     let agregado = `<div>Clic <a href = "ella.html" class = "enlaceElla">aqui</a> para la pagina creada para ti<div>`;
     document.body.innerHTML = agregado;}
 }
